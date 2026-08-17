@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "homepage": "https://paraoeliseo76-lang.github.io/student-directory",
   },
   "dependencies": {
     "react": "^19.2.8",
