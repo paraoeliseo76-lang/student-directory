@@ -8,6 +8,9 @@ export default function StudentDirectory({ students }) {
         {students.map((student) => (
           <StudentCard key={student.id} student={student} />
         ))}
+        if (students.length === 0) {
+  return <p>No students match your search or filter.</p>;
+}
       </div>
     </div>
   );
